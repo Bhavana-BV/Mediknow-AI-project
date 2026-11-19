@@ -70,5 +70,5 @@ After running the commands, expect:
 
 See `docs/PROJECT_REPORT.md` for the report outline and architecture diagrams. Streamlit search history lasts for the current browser session only.
 
-See [DEPLOYMENT.md](DEPLOYMENT.md) for Streamlit Community Cloud setup. The source folder is prepared, but it has not been published to a hosting account.
+See [DEPLOYMENT.md](DEPLOYMENT.md) for the live Streamlit Community Cloud URL and hosting details.
 
