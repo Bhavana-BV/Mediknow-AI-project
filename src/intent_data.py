@@ -1,0 +1,21 @@
+"""Small, transparent starter corpus; expand with reviewed paraphrases."""
+TRAINING_EXAMPLES = [
+    ("What is paracetamol used for", "drug_information"), ("Tell me about ibuprofen", "drug_information"),
+    ("Explain what metformin is", "drug_information"), ("What does aspirin do", "drug_information"),
+    ("Give information about amoxicillin", "drug_information"), ("What is acetaminophen", "drug_information"),
+    ("What is diabetes", "disease_information"), ("Explain hypertension", "disease_information"),
+    ("Tell me about asthma", "disease_information"), ("What is migraine", "disease_information"),
+    ("What does arthritis mean", "disease_information"), ("Describe heart disease", "disease_information"),
+    ("What are common side effects of ibuprofen", "side_effects"), ("Side effects of aspirin", "side_effects"),
+    ("Can metformin cause side effects", "side_effects"), ("What unwanted effects does paracetamol have", "side_effects"),
+    ("Adverse reactions to amoxicillin", "side_effects"), ("What are the risks of this medicine", "side_effects"),
+    ("What precautions apply to ibuprofen", "precautions"), ("Who should avoid aspirin", "precautions"),
+    ("Warnings for metformin", "precautions"), ("Is there a precaution with amoxicillin", "precautions"),
+    ("What should I know before taking paracetamol", "precautions"), ("Medicine safety information", "precautions"),
+    ("Which diseases is metformin indicated for", "drug_disease_relationship"),
+    ("What condition is ibuprofen used for", "drug_disease_relationship"),
+    ("Is aspirin indicated for a disease", "drug_disease_relationship"),
+    ("What illnesses does amoxicillin treat", "drug_disease_relationship"),
+    ("Which condition is this medicine for", "drug_disease_relationship"),
+    ("What is paracetamol indicated to treat", "drug_disease_relationship"),
+]

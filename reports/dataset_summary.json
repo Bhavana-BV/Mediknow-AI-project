@@ -1,0 +1,22 @@
+{
+  "record_count": 75,
+  "records_by_kind": {
+    "drug": 50,
+    "disease": 25
+  },
+  "records_by_source": {
+    "FDA openFDA drug labeling API": 50,
+    "MedlinePlus": 25
+  },
+  "unique_names_by_kind": {
+    "disease": 25,
+    "drug": 14
+  },
+  "text_length_chars": {
+    "mean": 3973.346666666667,
+    "median": 3175.0,
+    "min": 698,
+    "max": 12740
+  },
+  "caveat": "API query sample only; counts reflect records retrieved in this run, not real-world prevalence or complete source coverage."
+}

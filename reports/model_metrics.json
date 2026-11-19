@@ -1,0 +1,167 @@
+{
+  "validation": "3-fold stratified cross-validation",
+  "seed": 42,
+  "n_examples": 30,
+  "warning": "Small illustrative, hand-authored corpus; scores are not evidence of clinical or broad real-world performance.",
+  "best_model": "Linear SVM",
+  "metrics": [
+    {
+      "model": "Logistic Regression",
+      "accuracy": 0.26666666666666666,
+      "precision_weighted": 0.2531818181818182,
+      "recall_weighted": 0.26666666666666666,
+      "f1_weighted": 0.25469824293353704
+    },
+    {
+      "model": "Multinomial Naive Bayes",
+      "accuracy": 0.3,
+      "precision_weighted": 0.30318181818181816,
+      "recall_weighted": 0.3,
+      "f1_weighted": 0.294698242933537
+    },
+    {
+      "model": "Linear SVM",
+      "accuracy": 0.3333333333333333,
+      "precision_weighted": 0.34523809523809523,
+      "recall_weighted": 0.3333333333333333,
+      "f1_weighted": 0.3266666666666667
+    }
+  ],
+  "classification_reports": {
+    "Logistic Regression": {
+      "disease_information": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 6.0
+      },
+      "drug_disease_relationship": {
+        "precision": 0.375,
+        "recall": 0.5,
+        "f1-score": 0.42857142857142855,
+        "support": 6.0
+      },
+      "drug_information": {
+        "precision": 0.09090909090909091,
+        "recall": 0.16666666666666666,
+        "f1-score": 0.11764705882352941,
+        "support": 6.0
+      },
+      "precautions": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 6.0
+      },
+      "side_effects": {
+        "precision": 0.8,
+        "recall": 0.6666666666666666,
+        "f1-score": 0.7272727272727273,
+        "support": 6.0
+      },
+      "accuracy": 0.26666666666666666,
+      "macro avg": {
+        "precision": 0.25318181818181823,
+        "recall": 0.26666666666666666,
+        "f1-score": 0.25469824293353704,
+        "support": 30.0
+      },
+      "weighted avg": {
+        "precision": 0.2531818181818182,
+        "recall": 0.26666666666666666,
+        "f1-score": 0.25469824293353704,
+        "support": 30.0
+      }
+    },
+    "Multinomial Naive Bayes": {
+      "disease_information": {
+        "precision": 0.25,
+        "recall": 0.16666666666666666,
+        "f1-score": 0.2,
+        "support": 6.0
+      },
+      "drug_disease_relationship": {
+        "precision": 0.375,
+        "recall": 0.5,
+        "f1-score": 0.42857142857142855,
+        "support": 6.0
+      },
+      "drug_information": {
+        "precision": 0.09090909090909091,
+        "recall": 0.16666666666666666,
+        "f1-score": 0.11764705882352941,
+        "support": 6.0
+      },
+      "precautions": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 6.0
+      },
+      "side_effects": {
+        "precision": 0.8,
+        "recall": 0.6666666666666666,
+        "f1-score": 0.7272727272727273,
+        "support": 6.0
+      },
+      "accuracy": 0.3,
+      "macro avg": {
+        "precision": 0.3031818181818182,
+        "recall": 0.3,
+        "f1-score": 0.2946982429335371,
+        "support": 30.0
+      },
+      "weighted avg": {
+        "precision": 0.30318181818181816,
+        "recall": 0.3,
+        "f1-score": 0.294698242933537,
+        "support": 30.0
+      }
+    },
+    "Linear SVM": {
+      "disease_information": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 6.0
+      },
+      "drug_disease_relationship": {
+        "precision": 0.75,
+        "recall": 0.5,
+        "f1-score": 0.6,
+        "support": 6.0
+      },
+      "drug_information": {
+        "precision": 0.14285714285714285,
+        "recall": 0.3333333333333333,
+        "f1-score": 0.2,
+        "support": 6.0
+      },
+      "precautions": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 6.0
+      },
+      "side_effects": {
+        "precision": 0.8333333333333334,
+        "recall": 0.8333333333333334,
+        "f1-score": 0.8333333333333334,
+        "support": 6.0
+      },
+      "accuracy": 0.3333333333333333,
+      "macro avg": {
+        "precision": 0.34523809523809523,
+        "recall": 0.3333333333333333,
+        "f1-score": 0.32666666666666666,
+        "support": 30.0
+      },
+      "weighted avg": {
+        "precision": 0.34523809523809523,
+        "recall": 0.3333333333333333,
+        "f1-score": 0.3266666666666667,
+        "support": 30.0
+      }
+    }
+  }
+}
