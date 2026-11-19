@@ -13,7 +13,7 @@ Community Cloud deploys from a GitHub repository. Create a GitHub repository, ad
 * App file path: `app.py`
 * Python version: 3.12, matching the environment used to train the saved scikit-learn model
 
-The project has **not** been connected to GitHub or published from this workspace. Choose repository/app visibility deliberately before publishing. Streamlit's current documented workflow requires a GitHub repository and repository admin access. A public repository/app is viewable by anyone; a private app may have account limitations on the free Community Cloud plan. The deployed app retrieves short source passages at runtime, displays attribution and links, and does not put downloaded source snapshots into the public repository. Review [openFDA terms](https://open.fda.gov/terms/) and [MedlinePlus content-use guidance](https://medlineplus.gov/about/using/usingcontent/) before redistributing or modifying source text.
+The public source repository is [Bhavana-BV/Mediknow-AI-project](https://github.com/Bhavana-BV/Mediknow-AI-project). The app is **not yet deployed** to Community Cloud: Streamlit sign-in and app creation remain. Streamlit's documented workflow requires a GitHub repository and repository admin access. The repository and app are intended to be public. The app retrieves short source passages at runtime, displays attribution and links, and does not put downloaded source snapshots into the public repository. Review [openFDA terms](https://open.fda.gov/terms/) and [MedlinePlus content-use guidance](https://medlineplus.gov/about/using/usingcontent/) before redistributing or modifying source text.
 
 ## Local production-like launch
 
@@ -23,3 +23,4 @@ python -m streamlit run app.py
 ```
 
 The app performs no external API calls at runtime. Answers are limited to the included snapshot database, and every retrieved record links back to its source.
+
